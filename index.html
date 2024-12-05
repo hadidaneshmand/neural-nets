@@ -5,9 +5,12 @@
     <title>Neural Networks: A Theory Lab</title>
     <style>
         body {
+	    width: 70%;
+	    float: center;
             font-family: Arial, sans-serif;
-            margin: 0;
             padding: 0;
+	    margin: 0 auto;
+    	    text-align: center;
         }
         header {
             background-color: blue;
@@ -27,6 +30,12 @@
             padding: 14px 16px;
             text-decoration: none;
         }
+
+	img {
+  		width: 90%;
+		align: center
+	}
+
         nav a:hover {
             background-color: #87CEEB; /* Sky blue */
             color: black;
@@ -70,21 +79,43 @@
         <a href="#schedule">Schedule</a>
         <a href="#lectures">Lecture Notes</a>
     </nav>
-    <div class="container">
+    <div class="container", style="text-align: left;">
         <section id="about">
             <h2>About the Course</h2>
-            <p> In this course, we will explore the mechanisms of neural networks through both experimental observations and theoretical analyses. Specifically, we will review important experimental findings that have driven theoretical developments in machine learning and provide the theoretical frameworks that explain these observations. The following image shows a summary of topics that we plan to cover in this course.  </p>
+<p> <p>
+    In this course, we will delve into the mechanisms of neural networks through a combination of experimental observations and theoretical analyses. Specifically, we will examine significant experimental findings that have shaped theoretical advancements in machine learning and present the theoretical frameworks that explain these observations. 
+</p>
+<p>
+    The image below summarizes the topics we plan to cover. We will begin with the central topic and navigate between theory and observation as the course progresses. Starting with shallow neural networks comprising a single layer, we will advance to discussions on deep convolutional networks and transformers. 
+<div class="container", style="text-align: center;"> <img class="center" src="https://github.com/hadidaneshmand/neural-nets/blob/main/images/conceptmap.png?raw=true" alt="roadmap"> </div> 
+</p>
+<p>
+    <strong>Note:</strong> This course is not designed to enhance implementation skills but rather to introduce open-ended research questions in the understanding of neural networks.
+</p>
+<br>
+</p>
+<b> Requirements: </b> Students are expected to have a foundational understanding of linear algebra, statistics, probability theory, and calculus and can program in Python. While required materials will be reviewed during the course, these prerequisites are essential for successful participation and comprehension.  
+
+ </p>
         </section>
         <section id="schedule">
             <h2>Course Schedule</h2>
-            <p>Include a weekly schedule of topics and assignments here.</p>
+            <p>
+		<ul>
+	        <li>Shallow neural networks: Bridging random features, kernel methods and neural networks</li>
+    		<li>Deep neural networks: generalization and overfitting</li>
+    		<li>Optimizatio challenges: non-convexity and stochastic gradient approximation  
+		<li>Bridgining neural networks and Turing machine: In-context learning from practice to theory</li>
+		<li>Transformers: esssence of normalization, residual connections and attention layers </li>
+		<li>Generative models and saddle point optimization </li> 
+		<li>Additional topics: adversarial examples, reinforcement learning for langauge models</li> 
+		</ul>
+	    </p>
         </section>
         <section id="lectures" class="lecture-notes">
             <h2>Lecture Notes</h2>
             <ul>
-                <li><a href="lecture1.pdf" target="_blank">Week 1: Introduction</a></li>
-                <li><a href="lecture2.pdf" target="_blank">Week 2: Advanced Topics</a></li>
-                <li><a href="lecture3.pdf" target="_blank">Week 3: Practical Applications</a></li>
+                <li><a href="lecture1.pdf" target="_blank">Week 1</a></li>
                 <!-- Add more links as needed -->
             </ul>
         </section>
